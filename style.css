@@ -232,3 +232,23 @@ section{
     color: white;
     text-align: left;
 }
+
+
+@media (max-width: 979px) {
+  .section1 .section-body h1{
+    font-size: 60px;
+    line-height: 70px;
+  }
+}
+@media (max-width: 768px) {
+  .section1 .section-body h1{
+    font-size: 50px;
+    line-height: 60px;
+  }
+}
+@media (max-width: 414px) {
+  .section1 .section-body h1{
+    font-size: 40px;
+    line-height: 45px;
+  }
+}
