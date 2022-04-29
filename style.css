@@ -141,7 +141,7 @@ section{
   width: 100%;
   top: 0;
   left: 0;
-  background: red;
+  background: black;
   z-index: 10;
   opacity: .3;
 }
@@ -150,12 +150,25 @@ section{
   top: 0;
   right: -250px;
   width: 250px;
-  background: red;
+  background: white;
   height: 100vh;
   z-index: 11;
   transition-duration: .5s;
   opacity: 0;
   transition-timing-function:ease;
+
+}
+.mobilemenu .menu-item{
+  display: block;
+  padding: 10px;
+}
+.mobilemenu #mobilemenuclose{
+  padding: 10px;
+  margin-bottom: 20px;
+}
+.mobilemenu #mobilemenuclose img{
+  height: 32px;
+  width: auto;
 }
 .mobilemenu.open{
   right: 0px;
@@ -224,6 +237,7 @@ section{
     resize: none;
     color: #57e877;
     font-family: monospace;
+    cursor: auto;
 }
 .example-section p {
     font-size: 20px;
