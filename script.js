@@ -47,6 +47,21 @@ document.addEventListener('DOMContentLoaded', function(event) {
 
 
 
+  const section2 = document.getElementById('section2');
+  const explorebtn = document.getElementById('explorebtn');
+  explorebtn.onclick = (e) => {
+    jumpto('section2')
+  };
+
+  function jumpto(sectionId) {
+    const yOffset = -150;
+    const element = document.querySelector('#' + sectionId);
+    const y = element.getBoundingClientRect().top + window.pageYOffset + yOffset;
+    window.scrollTo({
+      top: y,
+      behavior: 'smooth'
+    });
+  }
 
 
 
@@ -71,7 +86,8 @@ document.addEventListener('DOMContentLoaded', function(event) {
 
 
 
-  
+
+
 
 
 })
