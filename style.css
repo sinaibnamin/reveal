@@ -1,8 +1,19 @@
 /* @import url('https://fonts.googleapis.com/css2?family=DM+Serif+Display&family=Poppins:wght@300&display=swap'); */
+
+
+@font-face {
+  font-family: DM;
+  src: url(fonts/DM.ttf);
+}
+@font-face {
+  font-family: Poppins;
+  src: url(fonts/DM.ttf);
+}
+
 :root {
-  --primaryfont: 'DM Serif Display', serif;
+  --primaryfont: DM, serif;
   --primaryfontweight: 400;
-  --secondaryfont: 'Poppins', sans-serif;
+  --secondaryfont: Poppins, sans-serif;
   --secondaryfontweight: 300;
 }
 
