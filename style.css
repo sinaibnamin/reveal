@@ -43,6 +43,7 @@ button{
 
 ::-webkit-scrollbar {
   width: 5px;
+  height: 5px;
 }
 
 ::-webkit-scrollbar-track {
@@ -201,6 +202,10 @@ section{
 
 
 
+.example-section {
+  width: 100%;
+  max-width: 100%;
+}
 .example-section > div{
   width: 400px;
   max-width: 90%;
