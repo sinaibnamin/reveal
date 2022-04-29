@@ -13,6 +13,7 @@
 }
 body{
   background: #f0eade;
+  overflow: overlay;
 }
 
 h1,h2,h3,h4,h5,h6{
@@ -41,11 +42,11 @@ button{
 
 
 ::-webkit-scrollbar {
-  width: 10px;
+  width: 5px;
 }
 
 ::-webkit-scrollbar-track {
-  background: #f1f1f1;
+  background: transparent;
 }
 
 ::-webkit-scrollbar-thumb {
@@ -251,6 +252,8 @@ section{
   display: flex;
   flex-direction: row;
   justify-content: space-between;
+  width: 100%;
+  max-width: 100%;
 }
 .example-section2 > div{
   width: 30%;
@@ -259,9 +262,11 @@ section{
   border: 1px solid black;
   padding: 8px;
   margin-bottom: 250px;
+
 }
 .example-section2 > div > div{
   width: 100%;
+  min-width: 250px;
   height: 100%;
   padding: 10px;
   background: black;
@@ -294,12 +299,22 @@ section{
     font-size: 60px;
     line-height: 70px;
   }
+  .example-section2 > div{
+    padding: 0px;
+    width: 32%;
+    height: 200px;
+    overflow-x: scroll;
+  }
+  .example-section2 p {
+      font-size: 15px;
+  }
 }
 @media (max-width: 768px) {
   .section1 .section-body h1{
     font-size: 50px;
     line-height: 60px;
   }
+
 }
 @media (max-width: 414px) {
   .section1 .section-body h1{
