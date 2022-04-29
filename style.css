@@ -197,7 +197,30 @@ section{
 .section1 .section-body button{
   margin: 0 auto;
   margin-top: 40px;
+  font-size: 16px;
+  padding: 15px 40px;
+}
+.section1 .section-body button img{
+  height: 20px;
+  width: auto;
+  margin-left: 10px;
+  animation: updown 1s infinite;
+  animation-timing-function: ease;
+}
 
+@keyframes updown {
+  0%{
+    transform: translateY(-2px);
+    opacity: 1;
+  }
+  50%{
+    transform: translateY(8px);
+    opacity: 1;
+  }
+  100%{
+    transform: translateY(-2px);
+    opacity: 0;
+  }
 }
 
 
