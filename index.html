@@ -1,85 +1,103 @@
 <!DOCTYPE html>
 <html lang="en" dir="ltr">
-  <head>
-    <meta charset="utf-8">
-    <title>RevealFrom - reveal on scroll </title>
-    <meta name="description" content="RevealFrom - A very lightweight library for reveal html element on scroll">
-    <meta name="keywords" content="reveal on scroll, lightweight library, js, css, html">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/sinaibnamin/reveal/reveal.css">
-    <link rel="stylesheet" href="style.css">
-  </head>
 
-  <body id="body">
+<head>
+  <meta charset="utf-8">
+  <title>RevealFrom - reveal on scroll </title>
+  <meta name="description" content="RevealFrom - A very lightweight library for reveal html element on scroll">
+  <meta name="keywords" content="reveal on scroll, lightweight library, js, css, html">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/sinaibnamin/reveal/reveal.css">
+  <link rel="stylesheet" href="style.css">
+</head>
 
-    <div id="navbar" class="navbar">
+<body id="body">
+
+  <div id="navbar" class="navbar">
+    <div class="container">
+      <div class="logo">
+        <h1>RevealFrom</h1>
+      </div>
+      <div id="hamicon" class="hamicon">
+        <img src="images/menu.svg" alt="icon">
+      </div>
+      <div id="menus" class="menus">
+
+        <a href="#" class="menu-item">HOME</a>
+        <a href="#" class="menu-item">DOCUMENTATION</a>
+        <a href="#" class="menu-item">GITHUB</a>
+
+      </div>
+    </div>
+  </div>
+  <section class="section1">
+
+    <div class="section-body">
       <div class="container">
-        <div class="logo">
-          <h1>RevealFrom</h1>
-        </div>
-        <div id="hamicon" class="hamicon">
-          <img src="images/menu.svg" alt="icon">
-        </div>
-        <div id="menus" class="menus">
-
-          <a href="#" class="menu-item">HOME</a>
-          <a href="#" class="menu-item">DOCUMENTATION</a>
-          <a href="#" class="menu-item">GITHUB</a>
-
-        </div>
+        <h1 class="revealFrom bottom">A lightweight Js ibrary to reveal element on scroll </h1>
+        <button class="revealFrom zoom delay200" type="button" name="button">Explore Now</button>
       </div>
+
     </div>
-    <section class="section1">
-
-      <div class="section-body">
-        <div class="container">
-          <h1 class="revealFrom bottom">A lightweight Js ibrary to reveal element on scroll </h1>
-          <button class="revealFrom zoom delay200" type="button" name="button">Explore Now</button>
-        </div>
-
-      </div>
 
 
-    </section>
-    <section class="section2 ">
-      <div class="container example-section">
-        <div class="example1 revealFrom left">
-          <div class="">
-
-          </div>
-        </div>
-        <div class="example2 revealFrom right">
-          <div class="">
-
-          </div>
-        </div>
-        <div class="example3 revealFrom bottom">
-          <div class="">
-
-          </div>
-        </div>
-        <div class="example4 revealFrom top">
-          <div class="">
-
-          </div>
+  </section>
+  <section class="section2 ">
+    <div class="container example-section">
+      <div class="revealFrom left">
+        <div class="">
+          <p>Reveal From Left</p>
+          <textarea disabled><div class="revealFrom left"></div></textarea>
         </div>
       </div>
-
-
-
-    </section>
-
-
-    <!-- fixed sections -->
-    <div id="overlysection" class="overlysection"></div>
-    <div id="mobilemenu" class="mobilemenu">
-      <div id="mobilemenuclose" class="">
-        close icon
+      <div class="revealFrom right">
+        <div class="">
+          <p>Reveal From Right</p>
+          <textarea disabled><div class="revealFrom right"></div></textarea>
+        </div>
+      </div>
+      <div class="revealFrom bottom">
+        <div class="">
+          <p>Reveal From Bottom</p>
+          <textarea disabled><div class="revealFrom bottom"></div></textarea>
+        </div>
+      </div>
+      <div class="revealFrom top">
+        <div class="">
+          <p>Reveal From Top</p>
+          <textarea disabled><div class="revealFrom top"></div></textarea>
+        </div>
+      </div>
+      <div class="revealFrom flip">
+        <div class="">
+          <p>Reveal From Flip</p>
+          <textarea disabled><div class="revealFrom flip"></div></textarea>
+        </div>
+      </div>
+      <div class="revealFrom zoom">
+        <div class="">
+          <p>Reveal From Zoom</p>
+          <textarea disabled><div class="revealFrom zoom"></div></textarea>
+        </div>
       </div>
     </div>
 
 
-    <script src="https://cdn.jsdelivr.net/gh/sinaibnamin/reveal/reveal.js" type="text/javascript"></script>
-    <script src="script.js" type="text/javascript"></script>
-  </body>
+
+  </section>
+
+
+  <!-- fixed sections -->
+  <div id="overlysection" class="overlysection"></div>
+  <div id="mobilemenu" class="mobilemenu">
+    <div id="mobilemenuclose" class="">
+      close icon
+    </div>
+  </div>
+
+
+  <script src="https://cdn.jsdelivr.net/gh/sinaibnamin/reveal/reveal.js" type="text/javascript"></script>
+  <script src="script.js" type="text/javascript"></script>
+</body>
+
 </html>

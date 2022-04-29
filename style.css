@@ -11,6 +11,9 @@
   padding: 0;
   box-sizing: border-box;
 }
+body{
+  background: #f0eade;
+}
 
 h1,h2,h3,h4,h5,h6{
   font-family: var(--primaryfont);
@@ -58,7 +61,6 @@ section{
   max-width: 100%;
   overflow-x: hidden;
   position: relative;
-  background: white;
 }
 .container{
   width: 1150px;
@@ -69,7 +71,6 @@ section{
 }
 .section1{
   height: 100vh;
-  background: white;
 
 }
 
@@ -81,7 +82,6 @@ section{
   height: 80px;
   overflow: hidden;
   color: black;
-  background: white;
   position: fixed;
   top: 0;
   z-index: 10;
@@ -163,6 +163,7 @@ section{
 }
 .navbar.fixed{
   box-shadow: 0 6px 14px rgb(0 0 0 / 10%);
+  background: white;
 }
 
 
@@ -189,15 +190,16 @@ section{
 
 
 .example-section{
-  background: white;
+
 }
 .example-section > div{
-  width: 300px;
+  width: 400px;
+  max-width: 90%;
   height: 250px;
   display: block;
   border: 1px solid black;
   padding: 10px;
-  margin-bottom: 100px;
+  margin-bottom: 250px;
 }
 .example-section > div:nth-of-type(odd){
   margin-right: auto;
@@ -210,4 +212,23 @@ section{
   height: 100%;
   padding: 10px;
   background: black;
+}
+.example-section textarea {
+    width: 100%;
+    padding: 0;
+    margin: 0;
+    display: block;
+    text-align: left;
+    background: none;
+    border: none;
+    resize: none;
+    color: #57e877;
+    font-family: monospace;
+}
+.example-section p {
+    font-size: 20px;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    color: white;
+    text-align: left;
 }
