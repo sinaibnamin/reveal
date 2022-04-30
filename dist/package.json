@@ -1,0 +1,25 @@
+{
+  "name": "revealfrom",
+  "version": "1.0.0",
+  "description": "A lightweight Js library to reveal element on scroll.",
+  "main": "revealfrom.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/sinaibnamin/revealfrom.git"
+  },
+  "keywords": [
+    "reveal",
+    "element",
+    "on",
+    "scroll"
+  ],
+  "author": "Sina Ibn Amin",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/sinaibnamin/revealfrom/issues"
+  },
+  "homepage": "https://github.com/sinaibnamin/revealfrom#readme"
+}

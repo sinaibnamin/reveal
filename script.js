@@ -49,8 +49,20 @@ document.addEventListener('DOMContentLoaded', function(event) {
 
   const section2 = document.getElementById('section2');
   const explorebtn = document.getElementById('explorebtn');
+  const documentationbtn = document.getElementsByClassName('documentationbtn')[0];
+  const documentationbtnmobile = document.getElementsByClassName('documentationbtn')[1];
+
   explorebtn.onclick = (e) => {
     jumpto('section2')
+  };
+  documentationbtn.onclick = (e) => {
+    jumpto('documentationsection')
+  };
+  documentationbtnmobile.onclick = (e) => {
+    mobilemenu.classList.remove('open')
+    overlysection.classList.remove('open')
+    body.classList.remove('overflowhidden')
+    jumpto('documentationsection')
   };
 
   function jumpto(sectionId) {
