@@ -160,6 +160,7 @@
       <p>Add Js CDN</p>
       <textarea disabled><script src="https://cdn.jsdelivr.net/npm/revealfrom@1.0.0/revealfrom.js"></script></textarea>
       <p>Please make sure that your section has this two css property:( max-width: 100%; and overflow-x: hidden; )</p>
+      <p><i>Note: Please be careful to use margin or padding in section element. It might be overflow.</i></p>
       <textarea class="css-property" disabled>
 section {
   max-width: 100%;
@@ -174,6 +175,7 @@ section {
 <head>
   <meta charset="utf-8">
   <title>Your Website Title</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/revealfrom@1.0.0/revealfrom.css">
   <style media="screen">
     section {
@@ -181,7 +183,9 @@ section {
       max-width: 100%;
       overflow-x: hidden;
       background: #f3f3f3;
-      padding:100px;
+    }
+    h2{
+      margin:150px;
     }
   </style>
 </head>
