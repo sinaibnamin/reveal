@@ -1,6 +1,6 @@
 {
   "name": "revealfrom",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "A lightweight Js library to reveal element on scroll.",
   "main": "revealfrom.js",
   "scripts": {
